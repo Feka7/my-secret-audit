@@ -9,19 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ethereum-attestation-service/eas-sdk": "^1.2.1-beta.0",
+    "@libp2p/interface-peer-store": "^2.0.4",
+    "@sismo-core/sismo-connect-react": "^0.0.23",
+    "@supercharge/strings": "^2.0.0",
+    "@thirdweb-dev/react": "^3.16.4",
+    "@thirdweb-dev/sdk": "^3.10.66",
+    "@waku/interfaces": "^0.0.18",
+    "@waku/react": "^0.0.5-77c40b4",
+    "@waku/sdk": "^0.0.19",
+    "ethers": "^5.7.2",
+    "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "13.5.4"
+    "server-name-generator": "^1.0.5",
+    "uint8arraylist": "^2.4.3",
+    "usehooks-ts": "^2.9.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/crypto-js": "^4.1.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",
+    "daisyui": "^3.9.2",
     "postcss": "^8",
     "tailwindcss": "^3",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.4"
+    "typescript": "^5"
   }
 }
