@@ -36,6 +36,10 @@ export default function Sismo() {
           method: "POST",
           body: JSON.stringify(response),
         });
+
+        //DISCLAIMER
+        //The response from Sismo is not properly handled
+        //Our scope is to simulate the interaction for the live demo
         setSismoProof("sismoProof generated")
       }}
       // reponse in bytes to call a contract

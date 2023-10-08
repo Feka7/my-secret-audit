@@ -31,7 +31,9 @@ export default function Room(props: RoomProps) {
     }
   };
 
-
+  //DISCLAIMER
+  //during the hackaton we encountered some problems on Waku
+  //to ensure a smooth live demo we preferred to show the data from localStorage
   return (
     <div className="h-screen flex flex-col w-full">
       {/* <ChatList messages={props.messages} /> */}

@@ -144,6 +144,10 @@ export default function Page() {
         "\nencriptionKey: " +
         encryptionKey,
     ]);
+
+    //DISCLAIMER
+    //during the hackaton we encountered some problems on Waku
+    //to ensure a smooth live demo we preferred to add the data to localStorage as well
     setState(
       "Encrypted key successfully send to recipier!\n\nAttest UID:\n\n" +
         newAttestationUID +
